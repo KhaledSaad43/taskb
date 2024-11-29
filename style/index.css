@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: calc(100% / 8);
+    height: 40vh;
+}
+section{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+.container1:hover .a{
+    background-color: black;
+}
+.container1 .a:hover{
+    background-color: black;
+}
+.container2:hover .b{
+    background-color: white;
+}
+.container2:hover .a{
+    background-color: white;
+}
+div p{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 20px;
+    font-weight: bold;
+    color: cyan;
+}
+.a{
+    background-color: white;
+    transition: 0.3s;
+}
+.b{
+    background-color: black;
+    transition: 0.3s;
+}
